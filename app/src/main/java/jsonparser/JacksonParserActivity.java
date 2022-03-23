@@ -26,6 +26,7 @@ public class JacksonParserActivity extends AppCompatActivity {
             tv.setText(person.getFirstname() + " " + person.getLastname() + " " + person.age);
         } catch (IOException e) {
 
+
         }
     }
 }
